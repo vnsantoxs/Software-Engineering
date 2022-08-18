@@ -84,6 +84,7 @@ void A2(FILE *arquivo, vendedor **vetor, int quant, int tam)//Incluir um determi
     {
         if(quant < tam)
         {
+            fflush(stdin);
             vendedor *novo = malloc(sizeof(vendedor));
             printf("\nDigite o Codigo do Vendedor: ");
             printf("%d", novo->codigo);
