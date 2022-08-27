@@ -2,7 +2,6 @@ void setup()
 {
   pinMode(13, OUTPUT);//definindo a porta 13 com saida
 }
-
 void loop() 
 {
   digitalWrite(13, HIGH);//porta esta fornecendo dados altos(ligado)
